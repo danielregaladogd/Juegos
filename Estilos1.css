@@ -1,0 +1,80 @@
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  overflow-x: clip;
+}
+
+body {
+	background-size: cover;
+	color: white;
+  zoom: 0.67;
+}
+
+@font-face {
+ 	font-family: 'Minecraft';
+ 	src: url('Mojang-Bold.ttf') format('truetype');
+ }
+
+.columna {          
+  padding: 20px;                        
+  border: 5px solid white;
+  border-radius: 0px;
+  background-size: cover;    
+  background-position: center; 
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+ }
+
+ .columna:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: gray;
+  border-image: linear-gradient(90deg, #ffff00, #ffaa00) 1;
+}
+
+ p {
+ 	font-family: Berlin Sans FB;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ ul {
+ 	font-family: Berlin Sans FB;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+h2 {
+	font-family: Berlin Sans FB;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-family: Berlin Sans FB;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.ContenedorTexto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+a:hover {
+  background: darkgreen;
+}
+
+.Imagen {
+  transition: transform 0.3s ease;
+}
+
+.Imagen:hover {
+  transform: scale(1.12);
+ }
+
+
+
+

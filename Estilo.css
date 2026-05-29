@@ -1,0 +1,106 @@
+H1 {
+	color: white;
+    
+}
+
+h2{
+	color: white;
+}
+
+p{
+	color: white;
+	font-family: Comic Sans MS;
+	font-size: 15px;
+}
+
+h3 {
+	color: white;
+}
+
+body {
+	background-size: cover;
+  overflow-x: hidden;
+}
+
+ .ContenedorTexto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+ .columna {          
+  padding: 15px;                        
+  border: 2px solid white;
+  border-radius: 15px;
+  background-image: url('Fondotexto.jpg');
+  background-size: cover;    
+  background-position: center; 
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .columna:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+
+
+ .Imagen {
+ width: 100%;
+ height: 300px;
+ object-fit: cover;
+ border-radius: 10px;
+ border: 2px solid white;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .Imagen:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+
+ .textodegradado {
+  background: linear-gradient(to right,  #FFFFFF 10%, #FF3300 20%, #990000 30%, #260000 40%, #000000 50%,  #000000 60%, #260000 70%, #990000 80%, #FF3300 90%, #FFFFFF 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: movimientotexto 4s linear infinite;
+ }
+
+ @keyframes movimientotexto {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
+ }
+
+ @font-face {
+ 	font-family: 'Minecraft';
+ 	src: url('Mojang-Bold.ttf') format('truetype');
+ }
+
+  @font-face {
+ 	font-family: 'Fornite';
+ 	src: url('Burbank Big Condensed Black.otf') format('truetype');
+ }
+
+ @font-face {
+ 	font-family: 'Tema';
+ 	src: url('Rocket Brush.otf') format('truetype');
+ }
+
+  @font-face {
+ 	font-family: 'Roblox';
+ 	src: url('RobloxFont-Regular.ttf') format('truetype');
+ }
+
+  @font-face {
+ 	font-family: 'Titulo';
+ 	src: url('Doctor Glitch.otf') format('truetype');
+ }
+
+
